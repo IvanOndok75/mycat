@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eee;
+}
+
+.card {
+    width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: pink;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Заголовок */
+h1 {
+    color: #d44;
+    font-size: 40px;
+}
+
+h1 span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Контент */
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Ліва частина */
+.left img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* Права частина (відео) */
+.right video {
+    width: 300px;
+    border-radius: 20px;
+}
+
+img, video {
+    border: 3px solid red;
+}
+
+.left img,
+.right video {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
